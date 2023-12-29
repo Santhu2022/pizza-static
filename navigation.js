@@ -21,5 +21,5 @@ const logoutLink = document.getElementById('logoutLink');
 logoutLink.addEventListener('click', function (event) {
     event.preventDefault();
     localStorage.removeItem('userLoggedIn')
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 });
